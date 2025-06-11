@@ -73,7 +73,7 @@ def create_archiver_console(command_descriptions=COMMAND_DESCRIPTIONS) -> Consol
     theme = Theme({
     "markdown.code": "green on black",
     "markdown.item.bullet": "white",
-    "markdown.code": "green underline" # "green underline"
+    "markdown.code": "green underline"
     })
     
     console = Console(theme=theme)

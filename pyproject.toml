@@ -2,7 +2,7 @@
 name = "archify"
 version = "0.1.0"
 description = "Archive your Spotify playlists into local Markdown files"
-authors = ["Lewis <lewisdean22@outlook.com>"]
+authors = ["Lewis Dean <lewisdean22@outlook.com>"]
 readme = "README.md"
 homepage = "https://github.com/username/archify"
 
