@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*_playlist_archive.md
+*.batch
+.cache
