@@ -40,7 +40,7 @@ def get_user_input(console: Console, sp: spotipy.Spotify,
     """
     Makes use of a dispatcher pattern to handle user input.
     
-    Could replace with match-case in the future? - 
+    NOTE: Could replace with match-case in the future? - 
     benefit would be that uncessary arguments are not passed to handlers
     """
     while True:

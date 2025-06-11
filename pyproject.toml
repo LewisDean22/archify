@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "archify"
+version = "0.1.0"
+description = "Archive your Spotify playlists into local Markdown files"
+authors = ["Lewis <lewisdean22@outlook.com>"]
+readme = "README.md"
+homepage = "https://github.com/username/archify"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+rich = ">=10.0.0"
+spotipy = ">=2.19.0"
+python-dotenv = ">=0.21.0"
+thefuzz = ">=0.19.0"
+tqdm = ">=4.64.0"
+
+[tool.poetry.scripts]
+archify = "archify:main"
+# Creates an 'archify' command that runs the main function in archify.py
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
